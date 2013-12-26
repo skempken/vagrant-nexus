@@ -1,4 +1,4 @@
 vagrant-nexus
 =============
 
-Project to set up local Nexus via Vagrant / Puppet
+Project to set up Sonatype Nexus via Vagrant / Puppet.
