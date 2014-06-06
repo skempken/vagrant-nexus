@@ -12,7 +12,8 @@
   user{ 'nexus':
     ensure => present,
     comment => 'Nexus user',
-    gid     => 'nexus',
+    uid     => '998',
+    gid     => '998',
     home    => '/srv/nexus',
     shell   => '/bin/bash', # unfortunately required to start application via script.
     system  => true,

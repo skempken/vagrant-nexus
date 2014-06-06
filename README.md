@@ -13,3 +13,7 @@ Quick start
 * `vagrant up`
 * ...wait...
 * Nexus should be available on `http://localhost:9000`
+
+Working folder
+--------------
+By default, Nexus' working folder is synchronized to the host machine. This allows for some flexibility - for instance, you can recreate the Vagrant VM without losing all artifacts. If you do not want this, remove the corresponding line in `Vagrantfile`. 
