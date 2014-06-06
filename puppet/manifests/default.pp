@@ -20,7 +20,7 @@
   }
 
   class{ '::nexus':
-    version        => '2.7.0',
+    version        => '2.8.0',
     revision       => '05',
     nexus_user     => 'nexus',
     nexus_group    => 'nexus',
