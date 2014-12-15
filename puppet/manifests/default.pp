@@ -21,8 +21,8 @@
   }
 
   class{ '::nexus':
-    version        => '2.8.0',
-    revision       => '05',
+    version        => '2.11.0',
+    revision       => '02',
     nexus_user     => 'nexus',
     nexus_group    => 'nexus',
     nexus_root     => '/srv' # All directories and files will be relative to this
